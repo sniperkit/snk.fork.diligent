@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
-	"github.com/senseyeio/diligent"
 	"io/ioutil"
 	"log"
+
+	"github.com/senseyeio/diligent"
 )
 
 func runDep(deper diligent.Deper, reper diligent.Reporter, filePath string) {

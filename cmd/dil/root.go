@@ -1,12 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
+	"io/ioutil"
+	"log"
+
 	"github.com/senseyeio/diligent"
 	"github.com/senseyeio/diligent/csv"
 	"github.com/senseyeio/diligent/stdout"
 	"github.com/spf13/cobra"
-	"io/ioutil"
-	"log"
 )
 
 var (

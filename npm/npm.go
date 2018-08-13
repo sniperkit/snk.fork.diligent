@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package npm
 
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/senseyeio/diligent"
 	"io/ioutil"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/senseyeio/diligent"
 )
 
 type packageJson struct {

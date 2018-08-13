@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package csv
 
 import (
 	encCSV "encoding/csv"
-	"github.com/senseyeio/diligent"
 	"os"
+
+	"github.com/senseyeio/diligent"
 )
 
 type csv struct {

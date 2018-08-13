@@ -1,14 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package govendor
 
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/ryanuber/go-license"
-	"github.com/senseyeio/diligent"
 	"log"
 	"os"
 	"os/exec"
 	"strings"
+
+	"github.com/ryanuber/go-license"
+	"github.com/senseyeio/diligent"
 )
 
 type pkg struct {

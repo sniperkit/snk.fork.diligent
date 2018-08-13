@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package diligent
 
 // Reporter takes an array of dependencies and outputs them to a certain medium

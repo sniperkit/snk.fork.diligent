@@ -1,7 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
 	"errors"
+
 	"github.com/senseyeio/diligent"
 	"github.com/senseyeio/diligent/govendor"
 	"github.com/senseyeio/diligent/npm"

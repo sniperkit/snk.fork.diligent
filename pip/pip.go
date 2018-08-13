@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package pip
 
 import (
 	"bufio"
 	"errors"
 	"fmt"
-	"github.com/senseyeio/diligent"
 	"io/ioutil"
 	"regexp"
 	"strings"
+
+	"github.com/senseyeio/diligent"
 )
 
 type pkg struct {
